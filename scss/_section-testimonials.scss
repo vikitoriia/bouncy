@@ -1,0 +1,67 @@
+.ba-section-testimonials{
+	background-color: #f1f1f1;
+	padding: 80px 0 100px;
+
+	.ba-title{
+		color: #333b46;
+		font-family: "Source Sans Pro";
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.ba-subtitle{
+		width: 457px;
+		color: #81868e;
+		font-family: "Open Sans";
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: 0.7px;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.ba-slide{
+		background-color: #fff;
+		padding: 70px 121px 0px 96px;
+		display: flex;
+
+		.ba-post{
+			max-width: 754px;
+			transform: translateX(220px) translateY(-155px);
+
+			.ba-testimonials{
+				color: #81868e;
+				font-family: "Open Sans";
+				font-size: 16px;
+				font-weight: 400;
+				line-height: 1.75;
+				letter-spacing: 0.8px;
+				margin-bottom: 30px;
+			}
+
+			.ba-name{
+				color: #19bd9a;
+				font-family: "Open Sans";
+				font-size: 16px;
+				font-weight: 700;
+				line-height: 0.6;
+				text-transform: uppercase;
+				letter-spacing: 0.64px;
+			}
+
+			.ba-profession{
+				color: #464646;
+				font-family: "Open Sans";
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 0.6;
+				text-transform: uppercase;
+				letter-spacing: 0.56px;
+			}
+		}
+	}
+}

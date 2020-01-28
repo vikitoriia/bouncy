@@ -1,0 +1,36 @@
+.ba-section-team-contact{
+	background: #000 url(../img/tean-cont-bg.png) 50% no-repeat;
+	background-size: cover;
+	padding: 50px 0 57px;
+
+	.ba-title{
+		color: #ffffff;
+		font-family: "Open Sans";
+		font-size: 20px;
+		font-weight: 400;
+		letter-spacing: 0.8px;
+		text-align: center;
+		margin-bottom: 29px;
+	}
+
+	.ba-button-contact{
+		font-size: 16px;
+		color: #fff;
+		font-family: Open Sans;
+		text-align: center;
+		margin: 0 auto;
+
+		a{
+			border: 1px solid transparent;
+			border-radius: 19px;
+			padding: 8px 25px;
+			line-height: 1;
+	
+			&:hover{
+				border: 1px solid #fff;
+			}
+		}
+		
+	}
+
+}

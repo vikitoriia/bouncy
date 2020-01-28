@@ -1,0 +1,36 @@
+.ba-section-intro {
+  	background: url(../img/intro-bg.jpg) 50% no-repeat;
+  	background-size: cover;
+  	padding: 293px 0 90px;
+
+  	.ba-intro-title {
+   	color: #ffffff;
+   	font-family: "Source Sans Pro";
+    	text-transform: uppercase;
+		letter-spacing: 7px;
+		text-align: center;
+		margin-bottom: 43px;
+		line-height: 0.5;
+	}
+	
+	.ba-intro-subtitle{
+		color: #ffffff;
+		font-family: Open Sans;
+		font-size: 16px;
+		font-weight: 400;
+		letter-spacing: 0.8px;
+		text-align: center;
+		margin-bottom: 220px;
+	}
+
+	.ba-scroll{
+		position: absolute;
+		display: block;
+		width: 36px;
+		height: 36px;
+		background: url(../img/scroll-arrow.png);
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+	}
+}

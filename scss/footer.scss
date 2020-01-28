@@ -1,0 +1,28 @@
+.ba-footer{
+	
+	background: #fff;
+	padding: 72px 0 72px;
+	display: flex;
+	text-align: center;
+
+	&-logo{
+		margin: 0 auto;
+		align-items: center;
+		margin-bottom: 27;
+	}
+
+	.ba-copyright{
+color: #81868e;
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 0.7px;
+margin-bottom: 37px;
+	}
+
+	.ba-socials{
+		a + a{ 
+			margin-left: 10px;
+		}
+	}
+}

@@ -1,0 +1,57 @@
+.ba-section-portfolio{
+	background-color: #f3f3f3;
+	padding: 80px 0 102px;
+
+	.ba-title{
+		color: #333b46;
+		font-family: "Source Sans Pro";
+		font-weight: 300;
+		line-height: 0.6;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.ba-subtitle{
+		color: #81868e;
+		font-family: "Open Sans";
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: 0.7px;
+		line-height: 1.7;
+		text-align: center;
+		width: 457px;
+		margin: 0 auto;
+		margin-bottom: 81;
+	}
+
+	.ba-portfolio-nav{
+		text-align: center;
+		margin-bottom: 73px;
+
+		a{
+			color: #464646;
+			font-family: "Open Sans";
+			font-size: 16px;
+			font-weight: 400;
+			padding-bottom: 5px;
+
+			&:hover{
+				border-bottom: 2px solid #19bd9a;
+			}
+		}
+
+		a + a {
+			margin-left: 25px;
+		}
+	}
+
+	.ba-gallery{
+		display: flex;
+
+		img + img{
+			margin-top: 10px;
+		}
+	}
+}
